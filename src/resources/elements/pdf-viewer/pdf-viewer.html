@@ -1,0 +1,41 @@
+<template>
+  <style>
+    .pdf-background {
+      background-color: lightgray;
+    }
+
+    #viewerContainer {
+      overflow: auto;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+
+  <div>
+    <span class="outer">
+      <div class="pdf-background">
+        <div if.bind="showPageNumbers" class="d-flex justify-content-between align-items-center">
+          <button type="button" class="btn btn-secondary" click.delegate="pagePrevious()">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div>
+            Page ${pageNumber} / ${pageCount}
+          </div>
+          <button type="button" class="btn btn-secondary" click.delegate="pageNext()">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <p>
+        <a href.bind="documentLink" download.bind="fileDownloadName">Download document</a>
+      </p>
+
+      <div class="viewerContainer">
+        <canvas id="pdf" class="pdf-background"></canvas>
+      </div>
+    </span>
+  </div>
+</template>

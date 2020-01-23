@@ -1,0 +1,49 @@
+{
+  "name": "pdf-viewer",
+  "description": "An Aurelia client application.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "???",
+    "url": "???"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/blob-util": "^2.0.0",
+    "@types/pdfjs-dist": "^2.1.3",
+    "aurelia-animator-css": "^1.0.4",
+    "aurelia-bootstrapper": "^2.3.0",
+    "blob-util": "^2.0.2",
+    "bluebird": "^3.5.2",
+    "bootstrap": "^4.4.1",
+    "pdfjs-dist": "^2.2.228",
+    "popper.js": "^1.16.1",
+    "requirejs": "^2.3.6",
+    "text": "github:requirejs/text#latest"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.11.6",
+    "aurelia-cli": "^1.0.0-beta.3",
+    "aurelia-testing": "^1.0.0",
+    "aurelia-tools": "^2.0.0",
+    "browser-sync": "^2.26.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "debounce": "^1.2.0",
+    "event-stream": "^4.0.1",
+    "gulp": "^4.0.0",
+    "gulp-changed-in-place": "^2.3.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tslint": "^8.1.3",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-watch": "^5.0.1",
+    "minimatch": "^3.0.4",
+    "through2": "^2.0.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.2",
+    "vinyl-fs": "^3.0.3"
+  }
+}
